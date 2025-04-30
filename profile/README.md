@@ -1,4 +1,4 @@
-![](.:logo.png)
+![](./logo.png)
 
 # 2DFS
 > ### A two-dimensional filesystem build and distribution framework for containers.
