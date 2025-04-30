@@ -1,4 +1,4 @@
-![](logo.png)
+![](.:logo.png)
 
 # 2DFS
 > ### A two-dimensional filesystem build and distribution framework for containers.
@@ -6,7 +6,7 @@
 ## What is 2DFS?
 > An extension of the container layered structure with a new two-dimensional filesystem layer type, specifically designed for efficient handling of large data.
 
-![](tdfs-example.png)
+![](./tdfs-example.png)
 
 **2DFS** is composed of:
 
@@ -17,7 +17,7 @@
 
 ## Features
 
-![](registry.png)
+![](./registry.png)
 
 - **2DFS Builder**: A tool to build 2DFS images from OCI images, with a focus on large data handling. Build performance up to 50x faster than Docker for large data.
 - **2DFS Registry**: A registry to host and distribute 2DFS images. It allows image partitioning via semantic tags, enabling on-demand retrieval of only the required data. This is particularly useful for large datasets, AI model partitions, drivers, and other large data files.
